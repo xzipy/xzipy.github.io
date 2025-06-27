@@ -6,6 +6,17 @@
   <title>Xaden Wilson</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css" />
+  <script>
+    async function updateFooter() {
+      try {
+        const res = await fetch('https://4484a312-fdc8-453a-960e-718d9be55d1a-00-d0tmikr2sawv.janeway.replit.dev/get_footer');
+        const html = await res.text();
+        document.getElementById('footer').innerHTML = html;
+      } catch (e) {
+        document.getElementById('footer').textContent = "Unable to load footer.";
+      }
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -32,9 +43,12 @@
     </p>
   </section>
 
-  <footer>
-    <b>Built by Xaden Wilson</b> — powered by caffeine & curiosity.
-    <a href="https://github.com/xzipy" style="color:#888">GitHub</a> - <a href="https://www.linkedin.com/in/xaden-wilson-642668213/" style="color:#888">Linkedin</a>
+  <footer id="footer" style="text-align: center; margin-top: 2rem; color: #888; font-size: 0.9rem;">
+    <!-- Footer content will be loaded here -->
   </footer>
+
+  <script>
+    updateFooter();
+  </script>
 </body>
 </html>
