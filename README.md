@@ -1,1 +1,1 @@
-https://xzipy.github.io
+https://xzipy.github.io/
