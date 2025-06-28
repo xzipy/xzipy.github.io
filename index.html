@@ -11,7 +11,7 @@
       const fallbackHTML = `<b>Built by Xaden Wilson</b> — fueled by caffeine & curiosity. | <a href="https://github.com/xzipy" style="color:#888">GitHub</a> - <a href="https://www.linkedin.com/in/xadenw/" style="color:#888">Linkedin</a> - <a href="https://xzipy.github.io" style="color:#888">Main Site</a>`;
   
       try {
-        const res = await fetch('https://4484a312-fdc8-453a-960e-718d9be55d1a-00-d0tmikr2sawv.janeway.replit.dev/get_footer');
+        const res = await fetch('https://xadenapi.onrender.com/get_footer');
         const html = await res.text();
         const footer = document.getElementById('footer');
         if (footer) footer.innerHTML = html || fallbackHTML;
