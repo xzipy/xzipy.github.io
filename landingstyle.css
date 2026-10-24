@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: #0e0e0e;
-  color: #ffffff;
+  background: #f0eded;
+  color: #171717;
   padding: 2rem;
 }
 
@@ -19,12 +19,12 @@ header {
 header h1 {
   font-size: 3rem;
   font-weight: 800;
-  color: #00f7ff;
+  color: #630031 ;
 }
 
 header p {
   font-size: 1.2rem;
-  color: #b0b0b0;
+  color: #630031 ;
 }
 
 .projects {
@@ -35,7 +35,7 @@ header p {
 }
 
 .card {
-  background: #1a1a1a;
+  background: #dcdada;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 247, 255, 0.1);
@@ -47,19 +47,19 @@ header p {
 }
 
 .card h3 {
-  color: #00f7ff;
+  color: #630031 ;
   margin-bottom: 0.5rem;
 }
 
 .card p {
   font-size: 0.95rem;
-  color: #d0d0d0;
+  color: #630031 ;
 }
 
 .card a {
   display: inline-block;
   margin-top: 1rem;
-  color: #00f7ff;
+  color: #630031 ;
   text-decoration: none;
   font-weight: 600;
 }
@@ -68,13 +68,13 @@ header p {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  color: #a0a0a0;
+  color: #630031 ;
   line-height: 1.6;
 }
 
 footer {
   text-align: center;
   margin-top: 3rem;
-  color: #555;
+  color: #630031 ;
   font-size: 0.9rem;
 }
