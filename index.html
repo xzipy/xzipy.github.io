@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="landingstyle.css" />
   <script>
     async function updateFooter() {
-      const fallbackHTML = `<b>Built by Xaden Wilson</b> — fueled by caffeine & curiosity. | <a href="https://github.com/xzipy" style="color:#888">GitHub</a> - <a href="https://www.linkedin.com/in/xadenw/" style="color:#888">Linkedin</a> - <a href="https://xzipy.github.io" style="color:#888">Main Site</a>`;
+      const fallbackHTML = `<b>Built by Xaden Wilson</b> | <a href="https://github.com/xzipy" style="color:#888">GitHub</a> - <a href="https://www.linkedin.com/in/xadenw/" style="color:#888">Linkedin</a> - <a href="https://xzipy.github.io" style="color:#888">Main Site</a>`;
   
       try {
         const res = await fetch('https://xadenapi.onrender.com/get_footer');
@@ -31,6 +31,14 @@
     <h1>Xaden Wilson</h1>
     <p>Mechanical Engineering Student @ Virginia Tech.</p>
   </header>
+
+  <section class="projects">
+    <div class="card" style="text-align: center;">
+      <h3>Boat Restoration</h3>
+      <p>Restored a 1981 Ranger 335V bass boat from the ground up, rebuilding its 12V electrical system, engineering custom 3D-printed and fabricated components, and refurbishing the outboard motor, fuel, and livewell systems to get it running reliably on Falls Lake and Jordan Lake.</p>
+      <a href="https://xzipy.github.io/bassboat/" target="_blank">View Project →</a>
+    </div>
+  </section>
 
   <section class="projects">
     <div class="card">
